@@ -13,3 +13,7 @@ All infrastructure is built using docker.
 - Kafka to ingest data from Debezium
 - KSQLDB to transform Avro messages into JSON
 - Spark Delta Lake to manage events from legacy database
+
+### Infrastructure model
+
+![Infrastructure model](.infragenie/infrastructure_model.png)
